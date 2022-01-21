@@ -16,7 +16,23 @@ public class AuthorDaoImpl implements AuthorDao{
     }
 
     @Override
+    public List<Author> findByfirst_name(String first_name) {
+        return null;
+    }
+
+    @Override
+    public List<Author> findBylast_name(String last_name) {
+        return null;
+    }
+
+
+    @Override
     public List<Author> findByGenre(String genre) {
+        return null;
+    }
+
+    @Override
+    public List<Author> findByEmail(String email) {
         return null;
     }
 
@@ -24,5 +40,5 @@ public class AuthorDaoImpl implements AuthorDao{
     public List<Author> findAll() {
         return null;
     }
-    
+
 }
